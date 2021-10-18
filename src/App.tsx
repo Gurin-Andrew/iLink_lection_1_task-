@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Poka
+          hi_hi
         </a>
       </header>
     </div>
