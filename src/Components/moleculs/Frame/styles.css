@@ -1,0 +1,7 @@
+.frame{
+    display: flex;
+    flex-direction: column;
+}
+.h1,.h2,.h3,.h4,.t1,.t2{
+    padding-bottom: 24px;
+}
