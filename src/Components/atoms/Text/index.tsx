@@ -1,17 +1,13 @@
-import React from "react";
-import './styles.css'
+import React from 'react';
+import './styles.css';
 
 interface TextCase {
-    value: string
+  value: string;
 }
 export const Text: React.FC<TextCase> = ({ value, children }) => {
-    /* const style = getStyleFromVariant(value) */
-    return (
-        <span className={value}>
-            {children}
-        </span>
-    )
-}
+  /* const style = getStyleFromVariant(value) */
+  return <span className={value}>{children}</span>;
+};
 /* const getStyleFromVariant = (variant: string) => {
     switch (variant) {
         case 'h1':
