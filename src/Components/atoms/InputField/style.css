@@ -1,0 +1,33 @@
+@import url(../Text/styles.css);
+.input__ok{
+    width: 355px;
+    height: 55px;
+    border-radius: 8px;
+    border: 1px solid #B3CDF8;
+    padding-left: 16px;
+}
+.input__errored{
+    width: 355px;
+    height: 55px;
+    padding-left: 16px;
+    border-radius: 8px;
+    border: 1px solid #FB6262;
+    background-image: url(../../../img/error_icon.svg)  ;
+    background-position: right 5% bottom 50%;
+    background-repeat: no-repeat;
+}
+    
+
+input:focus {
+    color:#333333;
+    outline: 1px solid #5C98F1;
+    border: none
+  }  
+::placeholder{
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 23px;    
+color:#9F9F9F
+}
