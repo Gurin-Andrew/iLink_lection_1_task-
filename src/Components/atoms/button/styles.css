@@ -1,0 +1,23 @@
+@import url(../Text/styles.css);
+button {
+    border-radius: 8px;
+    border: none;
+    width: 235px;
+    height: 56px;
+}
+
+.button__regular {
+    background-color: #5C98F1;
+}
+
+button:hover {
+    background-color: #4583DE;
+}
+
+.button__pressed {
+    background-color: #2C6AC7;
+}
+
+button:disabled {
+    background: #D1D1D1;
+}
